@@ -1,0 +1,35 @@
+auto.waitFor();
+launch("com.tencent.mm");
+while(!click("通讯录")){
+}
+while(!click("公众号")){
+}
+while(!click("浙科学声")){
+  scrollDown(0);
+}
+while(!click("云战疫"));
+sleep(3000);
+while(!click("每日一报")){
+  scrollDown(0);
+}
+while(!click("未填写"));
+sleep(1000);
+while(!click("正常"));
+sleep(1000);
+while(!click("健康"));
+sleep(1000);
+while(!click("否"));
+sleep(1000);
+while(!click("否"));
+sleep(1000);
+while(!click("否"));
+sleep(1000);
+while(!click("否"));
+sleep(1000);
+while(!click("否"));
+sleep(1000);
+while(!click("国内"));
+sleep(1000);
+while(!click("点击定位"));
+sleep(3000);
+while(!click("提交调查"));
